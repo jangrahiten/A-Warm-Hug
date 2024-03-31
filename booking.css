@@ -1,0 +1,97 @@
+body{
+    background-color: #F7F0F0;
+}
+#side{
+    font-size: 4vh;
+    padding-left: 1vh;
+    font-family: "ramabhadra";
+    position: relative;
+    top:-1vh;
+}
+#purple{
+    background-color: #351431 ;
+    height:100%;
+    width:60vw;
+    position: absolute;
+    top: 0vh;
+    right:0vw;
+}
+#book{
+    font-size: 12vh;
+    font-family: "Baloo Bhaijaan";
+    width:35vw;
+    position: absolute;
+    left:6vw;
+    top:30vh;
+}
+#parent{
+    position: absolute;
+    right:17vw;
+    top:5vh;
+}
+.place{
+    font-family: "ramabhadra";
+    font-size: 4.5vh;
+    color:#ffffff;
+}
+.inputs{
+    width:90%;
+    padding: 2vh;
+    border-radius: 3vh;
+    background-color: #D9D9D9;
+    font-size: 3vh;
+    
+}
+.inputs:hover {
+    background-color: #00000050;
+    color: white;}
+#choice{
+    width: 100%;
+}
+#anonymous{
+    padding-top:3vh;
+}
+#button{
+    background-color: #d9d9d9a7;
+    color:#ffffff;
+    border-radius: 3vh;
+    width:60%;
+    padding:1.5vh;
+    font-family: "ramabhadra";
+    font-size: 2.5vh;
+    left:17vh;
+    position: relative;
+    top:2vh;
+}
+#button:hover {background-color:#5d5353a7}
+
+#button:active {
+  background-color: #121010a7;
+  
+  transform: translateY(4px);}
+  #book::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  #book:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  #book::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(251deg 42% 75% / 52%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  #side a{
+    color: black;
+  }
+  #button a{
+    color: black;
+  }

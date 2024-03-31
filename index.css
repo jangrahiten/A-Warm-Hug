@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background-color: #f7f0f0;
+overflow: hidden;
+}
+nav {
+  background-color: #351431;
+  display: flex;
+  height: 7vh;
+  font-family: "Ramabhadra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  top: -1vh;
+  right: 1vw;
+}
+nav ul li {
+  float: left;
+  padding: 7px 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 23px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  /* background-color: #ddd;
+    color: black; */
+  text-decoration: underline;
+  color:rgb(184, 184, 183);
+}
+.heading {
+  color: #ffffff;
+  position: absolute;
+  font-size: 23px;
+  top: 0vh;
+  left:1vw;
+}
+
+.bg-img{
+position: relative;
+  width: 100%;
+  height: 100vh;
+  left: 0vw;
+  background-image: url(./index-bgimg.jpg.png);
+  background-size: cover;
+  background-position: center;
+  background-size: 135% auto;
+  opacity: 0.65;
+  z-index: 0;
+}
+.Main-content h1{
+  position: absolute;
+  color: #000000;
+  font-weight: 700;
+  font-size: 127px;
+  top: 0vh;
+  left: 8vw;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.login{
+  text-decoration: none;
+  font-size: 33px;
+  color: #351431;
+  font-family: "Ramabhadra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.login:hover{
+  text-decoration: underline;
+}
+
+.login-button{
+  width: 206px;
+  height: 64px;
+  background-color: rgba(217,217,217,70%);
+  border-radius: 42px;
+  text-align: center;
+  position: absolute;
+  top: 64vh;
+  left: 13vw;
+}
+.ask-acc{
+  color: #ffffff;
+  position: absolute;
+  top: 75vh;
+  left: 2vw;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* text-decoration: underline cyan; */
+
+}
+.signup a{
+  font-family: "Ramabhadra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-color: #351431;
+  color: #351431;
+  position: absolute;
+  font-size: 34px;
+  top: 85vh;
+  left: 16vw;
+}
+.para{
+  justify-content: center;
+  text-align: center;
+  height: 360px;
+  width: 370px;
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 27px;
+  position: absolute;
+  top: 42vh;
+  right: 12vw;
+}
+.qualifications{
+  position: absolute;
+  color: #351431;
+  position: absolute;
+  top: 25vh;
+  right: 19vh;
+  text-decoration: underline #351431;
+}
+.qualifications a{
+  text-decoration: none;
+  color: #351431;
+  font-family: sans-serif;
+  font-size: 27px;
+}

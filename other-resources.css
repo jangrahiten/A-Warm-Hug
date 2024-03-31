@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F7EFEF;
+}
+nav {
+  background-color: #351431;
+  display: flex;
+  height: 7vh;
+  font-family: "Ramabhadra", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul {
+  list-style-type: none;
+  position: absolute;
+  top: -1vh;
+  right: 1vw;
+}
+nav ul li {
+  float: left;
+  padding: 7px 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 23px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  /* background-color: #ddd;
+    color: black; */
+  text-decoration: underline;
+  color: rgb(184, 184, 183);
+}
+.heading {
+  color: #ffffff;
+  position: absolute;
+  font-size: 23px;
+  top: 0vh;
+  left: 1vw;
+}
+.sub-head-text {
+  font-family: "RamaBhadra";
+  font-weight: 500;
+  font-style: normal;
+  padding: 8px 12px;
+  font-size: 38px;
+  position: absolute;
+  left: 1vw;
+}
+.book-head {
+  position: absolute;
+  font-family: "RamaBhadra";
+  font-weight: 550;
+  font-style: normal;
+  padding: 5px 12px;
+  font-size: 40px;
+  top: 15vh;
+  left: 1vw;
+}
+.border-top1 {
+  position: absolute;
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+  height: 38vh;
+  width: 98.9vw;
+  top: 24vh;
+}
+.border-right1 {
+  position: absolute;
+  border-right: 7px solid black;
+  height: 39vh;
+  top: 24vh;
+  left: 25vw;
+}
+.border-right2 {
+  position: absolute;
+  border-right: 7px solid black;
+  height: 39vh;
+  top: 24vh;
+  left: 50vw;
+}
+.border-left1 {
+  position: absolute;
+  border-left: 7px solid black;
+  height: 39vh;
+  top: 24vh;
+  right: 25vw;
+}
+.atomic-cover img {
+  position: absolute;
+  top: 27vh;
+  left: 6vw;
+  height: 26vh;
+  box-shadow: 0px 0px 8px #481b42, 0px 0px 2px #481b42;
+  border-radius: 6px;
+}
+.atomic-title {
+  font-family: "Ramahadra";
+  font-size: 25px;
+  font-weight: 700;
+  color: #001898;
+  position: absolute;
+  left: 5.7vw;
+  top: 53vh;
+}
+.atomic-title-underline {
+  border-top: 4px solid #001898;
+  position: absolute;
+  top: 57vh;
+  left: 7vw;
+  width: 7vw;
+}
+.button {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  font-family: "Ramabhadra";
+  width: 9vw;
+  height: 4vh;
+  /* border-radius: 35px; */
+  border-radius: 50px;
+  box-shadow: 0px 0px 8px #481b42, 0px 0px 2px #481b42;
+}
+.atomic-getpdf-button {
+  position: absolute;
+  top: 58vh;
+  left: 6vw;
+}
+.atomic-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.ikigai-cover img {
+  position: absolute;
+  top: 27vh;
+  left: 33vw;
+  height: 26vh;
+  box-shadow: 0px 0px 8px #481b42, 0px 0px 2px #481b42;
+  border-radius: 6px;
+}
+.ikigai-title {
+  font-family: "Ramahadra";
+  font-size: 25px;
+  font-weight: 700;
+  color: #001898;
+  position: absolute;
+  left: 35.7vw;
+  top: 53vh;
+}
+.ikigai-title-underline {
+  border-top: 4px solid #001898;
+  position: absolute;
+  top: 57vh;
+  left: 36vw;
+  width: 3.5vw;
+}
+.ikigai-getpdf-button {
+  position: absolute;
+  top: 58vh;
+  left: 33vw;
+}
+.ikigai-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+.ikigai-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+.Power-cover img {
+  position: absolute;
+  top: 27vh;
+  left: 57.5vw;
+  height: 26vh;
+  box-shadow: 0px 0px 8px #481b42, 0px 0px 2px #481b42;
+  border-radius: 6px;
+}
+.Power-title {
+  font-family: "Ramahadra";
+  font-size: 25px;
+  font-weight: 700;
+  color: #001898;
+  position: absolute;
+  left: 52.7vw;
+  top: 53vh;
+}
+.Power-title-underline {
+  border-top: 4px solid #001898;
+  position: absolute;
+  top: 57vh;
+  left: 54vw;
+  width: 17.5vw;
+}
+.Power-getpdf-button {
+  position: absolute;
+  top: 58vh;
+  left: 58vw;
+}
+.Power-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+.Power-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+
+
+.Being-cover img {
+  position: absolute;
+  top: 27vh;
+  left: 83vw;
+  height: 26vh;
+  box-shadow: 0px 0px 8px #481b42, 0px 0px 2px #481b42;
+  border-radius: 6px;
+}
+.Being-title {
+  font-family: "Ramahadra";
+  font-size: 25px;
+  font-weight: 700;
+  color: #001898;
+  position: absolute;
+  left: 84.5vw;
+  top: 53vh;
+}
+.Being-title-underline {
+  border-top: 4px solid #001898;
+  position: absolute;
+  top: 57vh;
+  left: 85.5vw;
+  width: 5vw;
+}
+.Being-getpdf-button {
+  position: absolute;
+  top: 58vh;
+  left: 84vw;
+}
+.Being-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+.Being-getpdf-button img {
+  position: relative;
+  top: 1.2vh;
+  left: 0.5vw;
+  height: 16px;
+  background-color: #d9d9d9;
+}
+
+.Audio-head{
+  position: absolute;
+  font-family: "RamaBhadra";
+  font-weight: 550;
+  font-style: normal;
+  padding: 5px 12px;
+  font-size: 40px;
+  top: 65vh;
+  left: 1vw;
+}
+.Music{
+  position: absolute;
+  top: 75vh;
+  left: 10vw;
+  width: 30vw;
+  height: 33vh;
+}
+.audio-partition{
+  border-right: 3px solid black;
+  height: 40vh;
+  position: absolute;
+  left: 50vw;
+  top: 71vh;
+}
+
+.txt1-txt{
+  font-family: 'Ramabhadra';
+  font-size: 28px;
+  font-weight: 300;
+  position: absolute;
+  top: 108vh;
+  left: 14vw;
+}
+.txt1-underline{
+  border-bottom: 2px solid black;
+  width: 12vw;
+  position: absolute;
+  top: 114vh;
+  left: 19vw;
+}
+
+.Podcast{
+  position: absolute;
+  top: 75vh;
+  right: 10vw;
+  width: 30vw;
+  height: 33vh;
+}
+.txt2-txt{
+  font-family: 'Ramabhadra';
+  font-size: 28px;
+  font-weight: 300;
+  position: absolute;
+  top: 108vh;
+  right: 14vw;
+}
+.txt2-underline{
+  border-bottom: 2px solid black;
+  width: 16vw;
+  position: absolute;
+  top: 114vh;
+  right: 18.5vw;
+}
+.audio-end{
+  border-bottom: 7px solid black;
+  position: absolute;
+  width: 98.8vw;
+  top: 118vh;
+}
+#Games{
+  height: 212vh;
+}
+.game-head{
+  position: absolute;
+  font-family: "RamaBhadra";
+  font-weight: 550;
+  font-style: normal;
+  padding: 5px 12px;
+  font-size: 40px;
+  top: 120vh;
+  left: 1vw;
+}
+#Games .Title-txt{
+  position: absolute;
+  font-family: "RamaBhadra";
+  font-weight: 580;
+  font-style: normal;
+  font-size: 48px;
+  top: 125vh;
+  left: 29vw;
+}
+#Games .horizontal-line{
+  border-top: 5px solid black;
+  position: absolute;
+  top: 174vh;
+  left: 10vw;
+  width: 80vw;
+}
+
+.vertical-line{
+  position: absolute;
+  top: 135vh;
+  left: 50vw;
+  border-left: 5px solid black;
+  height: 80vh;
+}
+
+.game1{
+  width: 30vw;
+  height: 17vw;
+  position: absolute;
+  top: 137vh;
+  left: 16vw;
+}
+.game2{
+  width: 30vw;
+  height: 17vw;
+  position: absolute;
+  top: 137vh;
+  right: 14vw;
+}
+.game3{
+  width: 30vw;
+  height: 17vw;
+  position: absolute;
+  top: 179vh;
+  left: 16vw;
+}
+.game4{
+  width: 30vw;
+  height: 17vw;
+  position: absolute;
+  top: 179vh;
+  right: 14vw;
+}

@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #f7f0f0;
+  }
+  nav {
+    background-color: #351431;
+    display: flex;
+    height: 7vh;
+    font-family: "Ramabhadra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: -1vh;
+    right: 1vw;
+  }
+  nav ul li {
+    float: left;
+    padding: 7px 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    font-size: 23px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    /* background-color: #ddd;
+      color: black; */
+    text-decoration: underline;
+    color:rgb(184, 184, 183);
+  }
+  .heading {
+    color: #ffffff;
+    position: absolute;
+    font-size: 23px;
+    top: 0vh;
+    left: 1vw;
+  }
+  .photo{
+    position: absolute;
+    border-radius: 50%;
+    height:39vh;
+    
+
+  }
+  #one{
+    top:18vh;
+    left:4vw;
+
+    
+  }
+  #two{
+    top:60vh;
+    right:4vw;
+
+  }
+  #three{
+    top:100vh;
+    left:4vw;
+
+  }
+
+  #sub1{
+    position:relative;
+    top:14vh;
+    font-size: 6vh;
+    left:28vw;
+    
+  }
+  #info1{
+    position: absolute;
+    left:23vw;
+    top:31vh;
+  }
+  .info{
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  #sub3{
+    position:relative;
+    font-size: 6vh;
+    left:28vw;
+    top:78vh;
+  }
+
+  #sub2{
+    position: relative;
+    font-size: 6vh;
+    left:52vw;
+    top:45vh;
+  }
+  #info2{
+    position: absolute;
+    top:72vh;
+    right:27vw;
+    text-align: right;
+  }
+  #info3{
+    position:absolute;
+    top:112vh;
+    left:23vw;
+  }
+  .name{
+    border:2px solid ;
+    color: rgb(248, 243, 243);
+    width:12rem;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    background-color: orange;
+    height:5vh;
+    display:flex;
+    align-items: center;
+    border-radius: 10em;
+    
+
+  }
+  .subheading{
+    border-top: 2px solid black;
+    color: #ffa500;
+    border-bottom: 2px solid black;
+    width:18vw;
+  }
+  #name1{
+    top:55vh;
+    left:7em
+
+  }
+  #name2{
+    top:95vh;
+    right:7vw
+  }
+  #name3{
+    top:137vh;
+    left:7em
+  }
+  .photo:hover{
+    
+    box-shadow: rgba(219, 158, 66, 0.922) 3px -38px 61px;
+  }
+ 

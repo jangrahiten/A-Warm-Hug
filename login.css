@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    background-color: #F7F0F0;
+    overflow: hidden;
+}
+.hub{
+    font-family: 'Ramabhadra';
+    font-size: 31px;
+    font-weight: 700;
+    position: absolute;
+    left: 3vw;
+    top: 2vh;
+    text-decoration: underline;
+}
+.hub a{
+    color: #000000;
+}
+.side-bar{
+    height: 100vh;
+    width: 40vw;
+    background: rgba(74, 26, 68, 91%);
+    position: absolute;
+    right: 0vw;
+}
+.bar-intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    font-size: 48px;
+    top: 14vh;
+    right: 8.65vw;
+}
+.decoration{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    font-size: 91px;
+    top: 21vh;
+    right: 15vw;
+}
+.bar-content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    font-size: 36px;
+    top: 47vh;
+    width: 30vw;
+    right: 4vw;
+    justify-content: center;
+}
+.bar-signup a{
+    color: #351431;
+    text-decoration: none;
+    font-size: 48px;
+}
+.bar-signup{
+    font-family: 'Ramabhadra';
+    background-color: rgba(217, 217, 217, 0.7);
+    padding: 8px 27px;
+    width: 13.5vw;
+    display: flex;
+    border-radius: 56px;
+    position: absolute;
+    top: 76vh;
+    right: 10vw;
+    justify-content: center;
+}
+.bar-signup a:hover{
+    text-decoration: solid underline ;
+}
+.head{
+    font-family: 'Alice';
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+}
+.head-box{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    height: 9vh;
+    width: 9vw;
+    position: absolute;
+    top: 19vh;
+    left: 23vw;
+}
+.google-logo{
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    position: absolute;
+    top: 32vh;
+    left: 25vw;
+    display: flex;
+    justify-content:center ;
+    vertical-align:middle;
+}
+.google-logo img{
+    position: relative;
+    top: 2px;
+    height: 53px;
+    /* width: 53px; */
+    
+}
+.facebook-logo{
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    position: absolute;
+    top: 32vh;
+    left: 33vw;
+    display: flex;
+    justify-content:center ;
+    vertical-align:middle;
+}
+.facebook-logo img{
+    /* position: relative;
+    left: 9px;
+    top: 9px; */
+    height: 51px;
+}
+.linkdin-logo{
+    background-color: #D9D9D9;
+    border-radius: 60px;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    position: absolute;
+    top: 32vh;
+    left: 17vw;
+    display: flex;
+    justify-content:center ;
+    vertical-align:middle;
+}
+.linkdin-logo img {
+    /* position: relative;
+    left: 13px;
+    top: 10px; */
+    height: 49px;
+    width: 47px;
+}
+.text2{
+    position: absolute;
+    font-family: 'Ramabhadra';
+    font-size: 28px;
+    opacity: 67%;
+    font-weight: 800;
+    top: 47vh;
+    left: 14vw;
+}
+#email{
+    background-color: #D9D9D9;
+    font-family: 'Alice';
+    font-size: 22px;
+    border: none;
+    position: absolute;
+    top: 55vh;
+    left: 17vw;
+    padding:12px 28px;
+    color: black;
+}
+#password{
+    background-color: #D9D9D9;
+    font-family: 'Alice';
+    font-size: 22px;
+    border: none;
+    position: absolute;
+    top: 65vh;
+    left: 17vw;
+    padding:12px 28px;
+    color: black;
+}
+#Remember-me{
+    background-color: none;
+    height: 4vh;
+    width: 4vh;
+    border: none;
+    position: absolute;
+    top: 74vh;
+    left: 13vw;
+    color: black;
+}
+.Remember-me{
+    background-color: none;
+    position: absolute;
+    top: 74vh;
+    left: 15.5vw;
+    font-family: 'Alice';
+    font-size: 25px;
+}
+.text3 {
+    background-color: none;
+    position: absolute;
+    top: 74vh;
+    left: 30.5vw;
+    font-family: 'Alice';
+    font-size: 23px;
+    
+}
+.text3 a{
+    text-decoration: none;
+    color: #000000;
+}
+.main-signin a{
+    color: #351431;
+    text-decoration: none;
+    font-size: 36px;
+}
+.main-signin{
+    font-family: 'Ramabhadra';
+    display: flex;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.7);
+    padding: -3px 25px;
+    width: 13.5vw;
+    border-radius: 56px;
+    position: absolute;
+    top: 80vh;
+    left: 20vw;
+}
+.main-signin a:hover{
+    text-decoration: solid underline ;
+}
+
+.last-content{
+    font-family: 'Alice';
+    color: #000000;
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    top: 93vh;
+    width: 37vw;
+    left: 10vw;
+    font-weight: 300;
+}
